@@ -17,7 +17,7 @@ contract UsersContract {
     mapping(address => bool) private joinedUsers; 
     address[] total;
 
-    //event onUserJoined(address, string);
+    ////event onUserJoined(address, string);
 
     function join(string memory name, string memory surName) public
     {
